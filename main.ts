@@ -6,4 +6,6 @@ Logger.log('Data exchange!!!')
 
 const user: User = new UserAccount('Rafia Ana', 1);
 
-console.log(user);
+Logger.log(user);
+
+Logger.logT(true);
