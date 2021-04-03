@@ -22,5 +22,5 @@ System.config({
   }
 });
 
-System.import('./main')
+System.import('./main').then(function(e){console.log(e)})
   .catch(console.error.bind(console));
