@@ -1,4 +1,4 @@
-const typeScriptVersion = '4.0.3';
+const typeScriptVersion = '4.2.3';
 
 System.config({
   transpiler: 'ts',
