@@ -1,5 +1,5 @@
-import { Logger } from './log';
-import { User } from './interfaces/IUser';
+import { Logger } from './aider';
+import { User } from './interfaces/iuser';
 import { UserAccount } from './classes/UserAccount'
 
 const user: User = new UserAccount('Rafia Ana', 1);
@@ -18,6 +18,8 @@ button.className = 'btn--click';
 app?.appendChild(button);
 
 document?.querySelector('.btn--click').addEventListener('click', function(evnt){
-    console.log(evnt);
+    greet(`Rita Ora`)
 });
+
+const greet = (name: string):void => console.log(`Hi there, ${name}`)
 
