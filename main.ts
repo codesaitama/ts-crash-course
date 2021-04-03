@@ -2,10 +2,8 @@ import { Logger } from './log';
 import { User } from './interfaces/IUser';
 import { UserAccount } from './classes/UserAccount'
 
-Logger.log('Data exchange!!!')
-
 const user: User = new UserAccount('Rafia Ana', 1);
 
+Logger.log('Data exchange!!!')
 Logger.log(user);
-
-Logger.logT(true);
+Logger.logType(true);

@@ -3,7 +3,7 @@ export class Logger {
     console.log(message)
   }
 
-  static logT<Type>(message: Type) {
+  static logType<Type>(message: Type) {
     console.log(message)
   }
 }
