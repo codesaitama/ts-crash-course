@@ -8,7 +8,7 @@ function compilerConfig(tsFile, importFile) {
     },
     packages: {
       ".": {
-        main: `./${tsFile}.ts`,
+        main: `./src/${tsFile}.ts`,
         defaultExtension: 'ts'
       }
     },
@@ -24,7 +24,7 @@ function compilerConfig(tsFile, importFile) {
     }
   });
 
-  System.import(`./${importFile}`)
+  System.import(`./src/${importFile}`)
     .catch(console.error.bind(console));
 }
 
