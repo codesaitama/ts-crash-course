@@ -28,4 +28,4 @@ function compilerConfig(tsFile, importFile) {
     .catch(console.error.bind(console));
 }
 
-compilerConfig('main', 'main')
+compilerConfig('main', 'main');
