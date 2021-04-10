@@ -1,3 +1,4 @@
+// A class to create a new user account.
 export class UserAccount {
     name: string;
     id: number;
